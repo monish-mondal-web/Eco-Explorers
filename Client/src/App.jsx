@@ -13,11 +13,10 @@ export default function App() {
       <Router>
         <MainHeader />
         <Routes>
-          {/* Public Routes */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/quiz-play" element={<QuizPlayPage />} />
+          <Route path="/quiz-play/:id" element={<QuizPlayPage />} />
         </Routes>
       </Router>
     </AuthProvider>
