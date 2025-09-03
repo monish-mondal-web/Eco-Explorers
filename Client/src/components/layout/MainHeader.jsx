@@ -46,14 +46,15 @@ const MainHeader = () => {
     <header className="sticky top-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
         {/* Brand */}
+        {/* Brand */}
         <NavLink to="/">
           <div className="flex items-center space-x-3">
             <Logo />
-            <div className="hidden sm:block">
-              <h1 className="text-2xl md:text-3xl font-bold text-gray-800 tracking-wider font-['Fredoka_One']">
+            <div className="block">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 tracking-wider font-['Fredoka_One']">
                 Eco Explorers
               </h1>
-              <p className="text-green-700 text-sm md:text-lg mt-0.5 font-['Fredoka_One']">
+              <p className="text-green-700 text-xs sm:text-sm md:text-lg mt-0.5 font-['Fredoka_One']">
                 Learn • Play • Act
               </p>
             </div>

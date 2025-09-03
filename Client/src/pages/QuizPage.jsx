@@ -36,9 +36,11 @@ const QuizPage = () => {
             </div>
             <h2 className="text-2xl font-medium mb-2">Create Your Own Quiz</h2>
             <p className="mb-4">Powered by AI — design your quiz instantly!</p>
-            <button className="bg-yellow-300 text-purple-800 font-bold px-5 py-2 rounded-xl shadow hover:animate-bounce">
+            <NavLink to="/quiz-play/ai">
+              <button className="bg-yellow-300 text-purple-800 font-bold px-5 py-2 rounded-xl shadow hover:animate-bounce">
               Start Creating
             </button>
+            </NavLink>
           </motion.div>
 
           {/* Dynamic Cards */}

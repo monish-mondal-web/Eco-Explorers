@@ -31,7 +31,7 @@ export default function Home() {
       text: "Practice English conversations with AI & boost your confidence!",
       buttonText: "Practice Now",
       gradient: "bg-gradient-to-br from-blue-400 to-purple-500",
-      link: "/english",
+      link: "/spoken",
     },
     {
       icon: <EcoPointsIcon />,
@@ -39,7 +39,7 @@ export default function Home() {
       text: "Take eco-friendly actions, earn EcoPoints & become a Green Champion!",
       buttonText: "Join Challenge",
       gradient: "bg-gradient-to-br from-green-400 to-teal-500",
-      link: "/ecopoints",
+      link: "/eco-missions",
     },
   ];
 
